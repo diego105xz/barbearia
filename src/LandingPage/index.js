@@ -1,4 +1,7 @@
 import { useState } from 'react';
+import logo from '../assets/barbearia-logo.png';
+import sol from '../assets/sun.png';
+import lua from '../assets/moon.png';
 import './style.css';
 
 function Conteudo(){
@@ -22,9 +25,9 @@ function Conteudo(){
         <div className={ehTemaEscuro ? 'modo-escuro' : 'modo-claro'}>
             <header>
                 <div>
-                    <img src="assets/barbearia-logo.png" alt="logo" className='logo'/>
+                    <img src={logo} alt="logo" className='logo'/>
                     <button onClick={alterar} className={ehTemaEscuro ? 'modo-escuro':'modo-claro'}>
-                        <img src={ehTemaEscuro ? 'assets/sun.png' : 'assets/moon.png'} alt="lua-sol"/ >
+                        <img alt="lua-sol" src={ehTemaEscuro ? sol : lua } / >
                         {ehTemaEscuro ? 'Light' : 'Dark'}
                     </button>
                 </div>
