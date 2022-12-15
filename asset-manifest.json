@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.7919ff7d.css",
-    "main.js": "/static/js/main.9d252b70.js",
-    "static/media/banner-barbearia.jpg": "/static/media/banner-barbearia.6e5abe93cc1c1bbbc2d0.jpg",
-    "index.html": "/index.html",
-    "main.7919ff7d.css.map": "/static/css/main.7919ff7d.css.map",
-    "main.9d252b70.js.map": "/static/js/main.9d252b70.js.map"
+    "main.css": "/barbearia/static/css/main.4bfc8d47.css",
+    "main.js": "/barbearia/static/js/main.9d252b70.js",
+    "static/media/banner-barbearia.jpg": "/barbearia/static/media/banner-barbearia.6e5abe93cc1c1bbbc2d0.jpg",
+    "index.html": "/barbearia/index.html",
+    "main.4bfc8d47.css.map": "/barbearia/static/css/main.4bfc8d47.css.map",
+    "main.9d252b70.js.map": "/barbearia/static/js/main.9d252b70.js.map"
   },
   "entrypoints": [
-    "static/css/main.7919ff7d.css",
+    "static/css/main.4bfc8d47.css",
     "static/js/main.9d252b70.js"
   ]
 }
